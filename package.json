@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/lorrandavid/js-tdd-course/issues"
   },
-  "homepage": "https://github.com/lorrandavid/js-tdd-course#readme"
+  "homepage": "https://github.com/lorrandavid/js-tdd-course#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3"
+  }
 }
