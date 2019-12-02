@@ -5,7 +5,13 @@
   "main": "src/index.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint src/*.js",
+    "prepush": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run prepush"
+    }
   },
   "repository": {
     "type": "git",
@@ -26,6 +32,7 @@
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3"
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "husky": "^3.1.0"
   }
 }
