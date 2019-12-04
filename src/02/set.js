@@ -4,4 +4,4 @@ mySet.add('first');
 mySet.add('second');
 mySet.add('third');
 
-console.log(mySet.values())
+console.log(mySet.values());
